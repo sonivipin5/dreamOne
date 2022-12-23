@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <Link href={'/'}><div className="log cursor-pointer flex text-xl items-center"><BsTrophy className='inline' /> DreamOne</div></Link>
             <ul className='sm:flex space-x-5 hidden'>
-            <Link href={'/'}><li>Home</li></Link>
+            <Link href={'/'} ><li className='cursor-pointer'>Home</li></Link>
                 <li>Service</li>
                 <li>About Us</li>
                 <li>Contact</li>

@@ -19,7 +19,7 @@ useEffect(() => {
     router.push('/login')
     return
   }
-
+console.log('object')
 }, [token])
 
 
